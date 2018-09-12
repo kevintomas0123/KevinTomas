@@ -40,6 +40,7 @@
 
 
 
+
 .name{
     margin:0 0 0 0;
     padding:0 0 0 0;
@@ -69,6 +70,13 @@
     color:white;
     
    
+}
+
+@media only screen and (max-width: 400px){
+
+    .name{
+        font-size: 70px;
+    }
 }
 
 .about {
@@ -109,6 +117,13 @@
     color:white;
     font-family: 'Quando', serif;
     
+}
+
+@media only screen and (max-width: 400px){
+
+    .text{
+        font-size: 18px;
+    }
 }
 @media (max-width: 800px) {
     .about-content {
@@ -322,6 +337,12 @@
 @media (max-width: 800px) {
     .web-links {
         margin-top: 30px
+    }
+}
+@media only screen and (max-width: 400px){
+
+    .contact{
+        font-size: 25px;
     }
 }
 
